@@ -56,7 +56,20 @@ Maintaining a consistent coding style is essential for readability and maintaina
     # Avoid wildcard imports (e.g., from module import *)
 
     ```
-- Naming: Use meaningful and descriptive names for variables, functions, and classes.
+- Naming: Use meaningful and descriptive names for variables, functions, and classes. Follow these naming conventions:
+
+  * Use lowercase with underscores for module and package names (e.g., my_module).
+  * Use CamelCase for class names (e.g., MyClass).
+  * Use lowercase with underscores for function and variable names (e.g., my_function, my_variable).
+  ```
+  # Good naming conventions
+  class MyImportantClass:
+      def my_method(self):
+          my_variable = 42
+  
+  # Avoid single-letter variable names or overly generic names (e.g., a, b, x, data)
+
+  ```
 
 
 ## Naming Conventions
