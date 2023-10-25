@@ -37,7 +37,25 @@ Maintaining a consistent coding style is essential for readability and maintaina
       + another_long_function_name(arg4, arg5)
 
   ```
-- Imports: Organize imports according to PEP 8 guidelines.
+- Imports: Organize imports according to PEP 8 guidelines. Group imports into three sections, with each section separated by a blank line:
+
+    1. Standard Library Imports
+    2. Related Third-Party Imports
+    3. Local Application/Module Imports
+    Additionally, use absolute import paths to ensure clarity.
+    ```
+    # Good import organization
+    import os
+    import sys
+    
+    from my_package import my_module
+    from external_library import some_function
+    
+    from local_module import my_function
+    
+    # Avoid wildcard imports (e.g., from module import *)
+
+    ```
 - Naming: Use meaningful and descriptive names for variables, functions, and classes.
 
 
