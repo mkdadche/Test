@@ -144,3 +144,16 @@ Maintaining a consistent coding style is essential for readability and maintaina
 
   ```
 
+### 12. Linters and Static Analysis
+
+Mention any linters or static code analysis tools that are used to catch common coding style issues and potential errors. Explain how contributors can run these tools to identify and correct issues in their code.
+
+```markdown
+#### Linters and Static Analysis
+
+We employ `flake8` as our linter to check for coding style issues, adherence to PEP 8, and other code quality concerns. You can install `flake8` and run it as follows:
+
+```shell
+pip install flake8
+flake8 my_module.py
+
