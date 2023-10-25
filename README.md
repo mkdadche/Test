@@ -24,7 +24,18 @@ Maintaining a consistent coding style is essential for readability and maintaina
             do_something_else()
   ```
 
-- Line Length: Limit lines to 79 characters.
+- Line Length: This helps ensure that your code remains readable without excessive horizontal scrolling. If a line of code exceeds this limit, consider breaking it into multiple lines.
+  ```
+  result = (
+      some_long_function_name(arg1, arg2, arg3)
+      + another_long_function_name(arg4, arg5)
+  )
+  
+  # Alternatively, use backslashes for line continuation
+  result = some_long_function_name(arg1, arg2, arg3) \
+      + another_long_function_name(arg4, arg5)
+
+  ```
 - Imports: Organize imports according to PEP 8 guidelines.
 - Naming: Use meaningful and descriptive names for variables, functions, and classes.
 
