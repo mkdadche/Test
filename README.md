@@ -5,7 +5,8 @@ This document outlines best practices for writing Python code in our project. It
 ## Table of Contents
 
 1. [Coding Style](#coding-style)
-2. [Conclusion](#conclusion)
+2. [Testing](#testing)
+3. [Conclusion](#conclusion)
 
 ## Coding Style
 
@@ -161,6 +162,11 @@ Maintaining a consistent coding style is essential for readability and maintaina
   pip install flake8
   flake8 my_module.py
   ```
+
+## Testing
+*This function is added , assuming that we will have a unittest for each tool in the near future*
+
+Write unit tests to validate the functionality of your code. We recommend using the `unittest` or `pytest` frameworks for testing. Every code change should be accompanied by corresponding test cases.
 
 ## Conclusion
 
