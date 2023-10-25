@@ -18,12 +18,11 @@ Maintaining a consistent coding style is essential for readability and maintaina
 
 - Indentation: Use 4 spaces for indentation.
   ```
-  # Good indentation
-def example_function():
-    if some_condition:
-        do_something()
-        do_something_else()
-
+    def example_function():
+        if some_condition:
+            do_something()
+            do_something_else()
+ ```
 # Avoid mixing spaces and tabs for indentation.
 
   ```
