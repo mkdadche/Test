@@ -88,6 +88,21 @@ Maintaining a consistent coding style is essential for readability and maintaina
 
   ```
 
+- **Type Hinting**: Use type hinting to specify the expected types of variables, function arguments, and return values. This enhances code readability and helps tools like linters and IDEs catch type-related errors.
+
+  ```
+  def add_numbers(a: int, b: int) -> int:
+    return a + b
+  ```
+
+
+
+
+
+
+
+
+
 ## Naming Conventions
 
 Consistent naming conventions improve code clarity:
