@@ -75,6 +75,18 @@ Maintaining a consistent coding style is essential for readability and maintaina
 
   ```
 
+- Function and Method Length: Keep functions and methods concise and focused on a single responsibility. Ideally, functions should be no longer than a screen's worth of code (roughly 30 lines). If a function becomes too long, consider refactoring it into smaller, more specialized functions.
+  
+  ```
+  # Well-structured function
+  def process_data(data):
+      cleaned_data = preprocess_data(data)
+      result = analyze(cleaned_data)
+      return result
+  
+  # Avoid overly long functions with too many responsibilities.
+
+  ```
 
 ## Naming Conventions
 
