@@ -23,9 +23,7 @@ Maintaining a consistent coding style is essential for readability and maintaina
             do_something()
             do_something_else()
  ```
-# Avoid mixing spaces and tabs for indentation.
 
-  ```
 - Line Length: Limit lines to 79 characters.
 - Imports: Organize imports according to PEP 8 guidelines.
 - Naming: Use meaningful and descriptive names for variables, functions, and classes.
