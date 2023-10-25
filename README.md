@@ -27,7 +27,7 @@ Maintaining a consistent coding style is essential for readability and maintaina
   # Avoid mixing spaces and tabs for indentation.
   ```
 
-- Line Length:
+- **Line Length**:
   This helps ensure that your code remains readable without excessive horizontal scrolling. If a line of code exceeds this limit, consider breaking it into multiple lines.
   
   ```
