@@ -17,6 +17,7 @@ This document outlines best practices for writing Python code in our project. It
 Maintaining a consistent coding style is essential for readability and maintainability. We follow the PEP 8 style guide for Python. Key points include:
 
 - Indentation: Use 4 spaces for indentation. This makes your code more readable and aligns with the standard Python indentation style. Most code editors and IDEs are configured to automatically use 4 spaces when you press the Tab key.
+  
   ```
     def example_function():
         if some_condition:
@@ -26,6 +27,7 @@ Maintaining a consistent coding style is essential for readability and maintaina
   ```
 
 - Line Length: This helps ensure that your code remains readable without excessive horizontal scrolling. If a line of code exceeds this limit, consider breaking it into multiple lines.
+  
   ```
   result = (
       some_long_function_name(arg1, arg2, arg3)
@@ -43,6 +45,7 @@ Maintaining a consistent coding style is essential for readability and maintaina
     * Related Third-Party Imports
     * Local Application/Module Imports
     Additionally, use absolute import paths to ensure clarity.
+
     ```
     # Good import organization
     import os
@@ -61,6 +64,7 @@ Maintaining a consistent coding style is essential for readability and maintaina
   * Use lowercase with underscores for module and package names (e.g., my_module).
   * Use CamelCase for class names (e.g., MyClass).
   * Use lowercase with underscores for function and variable names (e.g., my_function, my_variable).
+    
   ```
   # Good naming conventions
   class MyImportantClass:
