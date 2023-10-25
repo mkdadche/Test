@@ -22,6 +22,7 @@ Maintaining a consistent coding style is essential for readability and maintaina
         if some_condition:
             do_something()
             do_something_else()
+  # Avoid mixing spaces and tabs for indentation.
   ```
 
 - Line Length: This helps ensure that your code remains readable without excessive horizontal scrolling. If a line of code exceeds this limit, consider breaking it into multiple lines.
