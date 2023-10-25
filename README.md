@@ -95,6 +95,22 @@ Maintaining a consistent coding style is essential for readability and maintaina
     return a + b
   ```
 
+- **Docstrings**: Write descriptive docstrings for modules, classes, functions, and methods. These docstrings serve as documentation for your code, making it easier for others to understand its purpose and usage.
+
+ ```
+  def calculate_average(numbers):
+      """
+      Calculate the average of a list of numbers.
+  
+      Args:
+          numbers (list): A list of numerical values.
+  
+      Returns:
+          float: The average of the numbers.
+      """
+      # Function implementation
+ ```
+
 
 
 
