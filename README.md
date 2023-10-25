@@ -5,12 +5,6 @@ This document outlines best practices for writing Python code in our project. It
 ## Table of Contents
 
 1. [Coding Style](#coding-style)
-2. [Project Structure](#project-structure)
-3. [Naming Conventions](#naming-conventions)
-4. [Documentation](#documentation)
-5. [Version Control](#version-control)
-6. [Testing](#testing)
-7. [Dependencies](#dependencies)
 
 ## Coding Style
 
