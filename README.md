@@ -17,6 +17,16 @@ This document outlines best practices for writing Python code in our project. It
 Maintaining a consistent coding style is essential for readability and maintainability. We follow the PEP 8 style guide for Python. Key points include:
 
 - Indentation: Use 4 spaces for indentation.
+  ```
+  # Good indentation
+def example_function():
+    if some_condition:
+        do_something()
+        do_something_else()
+
+# Avoid mixing spaces and tabs for indentation.
+
+  ```
 - Line Length: Limit lines to 79 characters.
 - Imports: Organize imports according to PEP 8 guidelines.
 - Naming: Use meaningful and descriptive names for variables, functions, and classes.
