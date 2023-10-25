@@ -164,7 +164,7 @@ Maintaining a consistent coding style is essential for readability and maintaina
   ```
 
 ## Testing
-*This function is added , assuming that we will have a unittest for each tool in the near future*
+*This section is added , assuming that we will have a unittest for each tool in the near future*
 
 Write unit tests to validate the functionality of your code. We recommend using the `unittest` or `pytest` frameworks for testing. Every code change should be accompanied by corresponding test cases.
 
