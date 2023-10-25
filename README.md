@@ -22,7 +22,7 @@ Maintaining a consistent coding style is essential for readability and maintaina
         if some_condition:
             do_something()
             do_something_else()
- ```
+  ```
 
 - Line Length: Limit lines to 79 characters.
 - Imports: Organize imports according to PEP 8 guidelines.
