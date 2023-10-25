@@ -16,7 +16,8 @@ This document outlines best practices for writing Python code in our project. It
 
 Maintaining a consistent coding style is essential for readability and maintainability. We follow the PEP 8 style guide for Python. Key points include:
 
-- Indentation: Use 4 spaces for indentation. This makes your code more readable and aligns with the standard Python indentation style. Most code editors and IDEs are configured to automatically use 4 spaces when you press the Tab key.
+- Indentation:
+  Use 4 spaces for indentation. This makes your code more readable and aligns with the standard Python indentation style. Most code editors and IDEs are configured to automatically use 4 spaces when you press the Tab key.
   
   ```
     def example_function():
@@ -26,7 +27,8 @@ Maintaining a consistent coding style is essential for readability and maintaina
   # Avoid mixing spaces and tabs for indentation.
   ```
 
-- Line Length: This helps ensure that your code remains readable without excessive horizontal scrolling. If a line of code exceeds this limit, consider breaking it into multiple lines.
+- Line Length:
+  This helps ensure that your code remains readable without excessive horizontal scrolling. If a line of code exceeds this limit, consider breaking it into multiple lines.
   
   ```
   result = (
@@ -39,7 +41,8 @@ Maintaining a consistent coding style is essential for readability and maintaina
       + another_long_function_name(arg4, arg5)
 
   ```
-- Imports: Organize imports according to PEP 8 guidelines. Group imports into three sections, with each section separated by a blank line:
+- Imports:
+  Organize imports according to PEP 8 guidelines. Group imports into three sections, with each section separated by a blank line:
 
     * Standard Library Imports
     * Related Third-Party Imports
@@ -59,7 +62,8 @@ Maintaining a consistent coding style is essential for readability and maintaina
     # Avoid wildcard imports (e.g., from module import *)
 
     ```
-- Naming: Use meaningful and descriptive names for variables, functions, and classes. Follow these naming conventions:
+- Naming:
+  Use meaningful and descriptive names for variables, functions, and classes. Follow these naming conventions:
 
   * Use lowercase with underscores for module and package names (e.g., my_module).
   * Use CamelCase for class names (e.g., MyClass).
@@ -75,7 +79,8 @@ Maintaining a consistent coding style is essential for readability and maintaina
 
   ```
 
-- Function and Method Length: Keep functions and methods concise and focused on a single responsibility. Ideally, functions should be no longer than a screen's worth of code (roughly 30 lines). If a function becomes too long, consider refactoring it into smaller, more specialized functions.
+- Function and Method Length:
+  Keep functions and methods concise and focused on a single responsibility. Ideally, functions should be no longer than a screen's worth of code (roughly 30 lines). If a function becomes too long, consider refactoring it into smaller, more specialized functions.
   
   ```
   # Well-structured function
