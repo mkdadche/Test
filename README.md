@@ -111,6 +111,44 @@ Maintaining a consistent coding style is essential for readability and maintaina
       # Function implementation
   ```
 
+- **Consistent Naming**: Ensure that your variable names are consistent and follow a logical naming scheme. For example, if you use get_ as a prefix for getter methods, be consistent across your codebase.
+  ```
+  # Consistency in method naming
+  def get_name(self):
+      return self._name
+  
+  # Consistency promotes predictability.
+  ```
+
+- **Error Handling**: Handle exceptions gracefully and provide meaningful error messages. Avoid using bare except clauses, which can hide errors. Instead, catch specific exceptions when needed.
+  ```
+  try:
+    result = risky_operation()
+  except FileNotFoundError as e:
+      log_error(f"File not found: {e}")
+  except Exception as e:
+      log_error(f"An error occurred: {e}")
+    ```
+
+- **List and Dictionary Comprehensions**: Use list comprehensions and dictionary comprehensions for concise and readable code when constructing lists or dictionaries.
+  ```
+  # List comprehension
+  squared_numbers = [x ** 2 for x in numbers]
+  
+  # Dictionary comprehension
+  squared_dict = {key: value ** 2 for key, value in original_dict.items()}
+  ```
+
+- **Avoid Global Variables**: Minimize the use of global variables as they can make code less predictable and harder to test. Instead, use function parameters and return values to pass data between functions.
+  ```
+  # Prefer function parameters and return values over global variables.
+  def calculate_total_price(items):
+      total_price = 0
+      for item in items:
+          total_price += item.price
+      return total_price
+
+  ```
 
 
 
