@@ -144,16 +144,12 @@ Maintaining a consistent coding style is essential for readability and maintaina
 
   ```
 
-### 12. Linters and Static Analysis
+- **Code Formatting Tools**: Explain any code formatting tools and configurations that your project uses to enforce coding style guidelines. For example, if you use `black` for automatic code formatting, provide instructions on how contributors can set up and run these tools to ensure code consistency.
 
-Mention any linters or static code analysis tools that are used to catch common coding style issues and potential errors. Explain how contributors can run these tools to identify and correct issues in their code.
+  ```
+  We use the `black` code formatter to automatically format Python code to adhere to our coding style. To ensure code consistency, please run `black` on your code before submitting a pull request:
 
-```markdown
-#### Linters and Static Analysis
-
-We employ `flake8` as our linter to check for coding style issues, adherence to PEP 8, and other code quality concerns. You can install `flake8` and run it as follows:
-
-```shell
-pip install flake8
-flake8 my_module.py
+  pip install black
+  black my_module.py
+  ```
 
