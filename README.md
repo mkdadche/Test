@@ -39,9 +39,9 @@ Maintaining a consistent coding style is essential for readability and maintaina
   ```
 - Imports: Organize imports according to PEP 8 guidelines. Group imports into three sections, with each section separated by a blank line:
 
-    1. Standard Library Imports
-    2. Related Third-Party Imports
-    3. Local Application/Module Imports
+    * Standard Library Imports
+    * Related Third-Party Imports
+    * Local Application/Module Imports
     Additionally, use absolute import paths to ensure clarity.
     ```
     # Good import organization
